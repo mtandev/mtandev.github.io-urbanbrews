@@ -142,7 +142,7 @@ img {
   color: var(--primary-color);
 }
 
-.section-a h1 #header {
+#header {
   font-size: 4rem;
   color: var(--primary-color);
 }
