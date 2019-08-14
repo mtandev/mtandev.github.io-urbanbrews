@@ -142,6 +142,11 @@ img {
   color: var(--primary-color);
 }
 
+.section-a h1 #header{
+  font-size: 4rem;
+  color: var(--primary-color);
+}
+
 .section-a p {
   margin: 1rem 0;
 }
