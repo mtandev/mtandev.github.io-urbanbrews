@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/ac8f301eec.js"></script>
+    <link rel="stylesheet" href="css/simplelightbox.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Great+Vibes|Lato|Raleway"
+      rel="stylesheet"
+    />
+    <title>Urban Brews</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/coffeeFavicon.jpg" />
+  </head>
+
+  <body>
+    <!--Nav Bar-->
+    <nav class="navbar">
+      <div class="container">
+       <a href="index.html"><img class="logo" src="/img/ubLogo.png"></img></a> 
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="page.html">Shop</a></li>
+          <li><a href="locations.html">Locations</a></li>
+          <li><a href="#footer">Contact</a></li>
+          <li><a href="#footer">Cart</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Large Text -->
+    <section id="about">
+      <div>
+        <div class="section-b-inner py-5">
+          <h2 id="page-header" class="text-5 mt-1">Come Visit Us!</h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- Showcase -->
+    <section class="section-a">
+      <div class="container">
+        <img src="img/bos.JPG" alt="" />
+        <div>
+          <h1 id="title">Boston</h1>
+          <p id="subheader">
+            85 Some Street, Post Office Square, Boston MA<br>
+            555-555-5555 
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+            repudiandae rerum libero ipsum asperiores omnis mollitia, nostrum
+            commodi placeat ea itaque modi corrupti corporis nam voluptas aut
+            reprehenderit eaque culpa.
+          </p>
+          <a href="#" class="btn">Book a Tasting</a>
+        </div>
+      </div>
+    </section>
+
+       <!-- Showcase -->
+       <section class="section-a">
+        <div class="container">
+          <img src="img/sanfran.JPG" alt="" />
+          <div>
+            <h1 id="title">San Francisco</h1>
+            <p id="subheader">
+              331 That Avenue, Union Square, San Francisco CA<br>
+              333-333-3333
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+              repudiandae rerum libero ipsum asperiores omnis mollitia, nostrum
+              commodi placeat ea itaque modi corrupti corporis nam voluptas aut
+              reprehenderit eaque culpa.
+            </p>
+            <a href="#" class="btn">Book a Tasting</a>
+          </div>
+        </div>
+      </section>
+
+   
+
+    <!-- Footer -->
+    <footer class="section-footer py-4 bg-primary" id="footer">
+      <div class="container">
+        <div>
+          <h2 class="text-2 mb-1">Urban Brews</h2>
+          <a href="http://twitter.com" target="_blank">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+          <a href="http://facebook.com" target="_blank">
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+          <a href="http://youtube.com" target="_blank">
+            <i class="fab fa-youtube fa-2x"></i>
+          </a>
+        </div>
+        <div>
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="page.html">Our Story</a></li>
+            <li><a href="#">Work With Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Shop</h3>
+          <ul>
+            <li><a href="#">Roasted Beans</a></li>
+            <li><a href="#">Green Coffee Beans</a></li>
+            <li><a href="#">Coffee Tools</a></li>
+            <li><a href="#">Merch</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact Us</h3>
+          <p>
+            Got a question? Want to talk coffee? Send us a message!
+          </p>
+          <form
+            class="mt-1"
+            name="email-form"
+            method="POST"
+            data-netlify="true"
+          >
+            <div class="email-form">
+              <span class="form-control-wrap"
+                ><input
+                  type="email"
+                  name="email"
+                  id="email"
+                  size="40"
+                  class="form-control"
+                  placeholder="E-mail"/></span
+              ><button type="submit" value="Submit" class="form-control submit">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script>
+      $(function() {
+        const $gallery = $(".gallery a").simpleLightbox();
+      });
+    </script>
+  </body>
+</html>
