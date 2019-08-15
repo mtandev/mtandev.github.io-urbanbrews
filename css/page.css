@@ -336,6 +336,11 @@ img {
     grid-template-columns: 1fr;
     text-align: center;
   }
+  
+   .navbar-menu .container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
 
   .section-a .container {
     grid-template-columns: 1fr;
